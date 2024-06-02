@@ -17,7 +17,7 @@
     }
 
     section#login div#formulario {
-        float: right;
+        /* float: right; */
         width: 65%;
     }
 
@@ -27,6 +27,16 @@
 
     div#formulario p {
         font-size: 1.2em;
+    }
+
+    form input[type=submit] {
+        float: right;
+        width: 70%;
+    }
+
+    form a.botao {
+        float: right;
+        width: 70%;
     }
 }
 
@@ -46,7 +56,7 @@
     }
 
     section#login div#formulario {
-        float: left;
+        /* float: left; */
         width: 50%;
     }
 
@@ -56,5 +66,13 @@
 
     div#formulario p {
         font-size: 1.2em;
+    }
+
+    form input[type=submit] {
+        width: 50%;
+    }
+
+    form a.botao {
+        width: 50%;
     }
 }
